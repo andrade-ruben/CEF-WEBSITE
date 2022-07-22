@@ -1,0 +1,56 @@
+.subtitle{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.dashboard-box{
+    display: flex;
+    flex-direction: column;
+    border-radius: .5rem;
+    //margin: 1.25rem 0 1.25rem 0;
+    margin: 5px 100px 10px 100px;
+    box-shadow: 0 .25rem .5rem #e6edef;
+    
+    .dashboard-card{
+        background-color: lightblue;
+    }
+    
+    .dashboard-head{
+        padding: 1rem 1.5rem;
+        border-bottom: 1px solid #edf1f7;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .dashboard-body{
+       padding: 1rem 1.5rem;
+    }
+
+    .view-container{
+        h4{
+            text-align: center;
+        }
+    }
+}
+
+.todo-box{
+    padding: 3rem∑;
+    display: flex;
+    flex-direction: column;
+    border-radius: .5rem;
+    background-color: #fff;
+    //margin: 1.25rem 0 1.25rem 0;
+    margin: 25px 100px 15px 100px;
+    box-shadow: 0 .25rem .5rem #e6edef;
+
+    .todo-head{
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid #edf1f7;
+            font-size: 1rem;
+            font-weight: 600;
+    }
+
+    .todo-body{
+        padding: 1rem 1.5rem;
+    }
+}

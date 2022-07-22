@@ -1,0 +1,48 @@
+<h1 class="mat-display-1">Leader Dashboard</h1>
+<div class="dashboard-box">
+  <mat-card class="dashboard-card">
+    <mat-card-title-group>
+        <mat-card-subtitle class="dashboard-head">
+          <mat-icon>speaker_notes</mat-icon>MESSAGE BOARD
+        </mat-card-subtitle>
+        <mat-card-actions align="end">
+        <button mat-raised-button color="lightblue">
+          <mat-icon>add</mat-icon>
+        </button>
+      </mat-card-actions>
+    </mat-card-title-group>
+    <mat-card-content class="dashboard-body">
+      <mat-card-subtitle class="subtitle">Today</mat-card-subtitle>
+        <mat-grid-list cols="4" rowHeight="50px">
+          <mat-grid-tile
+              *ngFor="let tile of tiles"
+              [colspan]="tile.cols"
+              [rowspan]="tile.rows"
+              [style.background]="tile.color">
+            {{tile.text}}
+          </mat-grid-tile>
+      </mat-grid-list>
+    </mat-card-content>
+  </mat-card>
+</div>
+
+<div class="todo-box">
+<mat-card >
+  <mat-card-title-group>
+    <mat-card-subtitle class="todo-head">
+      <mat-icon> format_list_bulleted</mat-icon>
+      TO DO LIST:
+    </mat-card-subtitle>
+    <mat-card-actions align="end">
+    <button mat-raised-button color="primary">Read More</button>
+    </mat-card-actions>
+  </mat-card-title-group>
+  <mat-card-content class="todo-body">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </mat-card-content>
+</mat-card>
+</div>
