@@ -7,7 +7,7 @@ mat-card{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #223852;
+    background: linear-gradient(to right, rgba(226,37,255), rgba(73,198,252));
     
     .card-container{
         display: flex;
@@ -38,6 +38,5 @@ mat-card{
         .margin-top{
             margin-top: 2rem;
         }
-
     }
 }

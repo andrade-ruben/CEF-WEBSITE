@@ -1,5 +1,5 @@
 .sidenav {
-    background: #8670FF;
+    background: linear-gradient(to right, rgba(226,37,255), rgba(73,198,252));
     transition: all .5s ease;
     position: fixed;
     z-index: 1;
@@ -19,7 +19,7 @@
         }
   
         .logo {
-            background: #8670FF;
+            background: linear-gradient(to right, rgba(226,37,255), rgba(73,198,252));
             text-align: center;
             width: 3rem;
             min-width: 4rem;
@@ -56,7 +56,7 @@
   }
   
   .sidenav-collapsed {
-    width: 16.5625rem;
+    width: 18.5625rem;
   }
   
   .sidenav-nav {
@@ -106,7 +106,6 @@
   
   .active {
     background-color: #fff;
-  
     .sidenav-link-icon,
     .sidenav-link-text {
         color: #000;

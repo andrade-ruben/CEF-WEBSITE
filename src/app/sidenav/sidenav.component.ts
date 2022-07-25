@@ -40,7 +40,7 @@ interface SideNavToggle {
 })
 export class SidenavComponent implements OnInit {
 
-  title = 'CEF OF PHILADELPHIA INC.'
+  title = 'CHILD EVANGELISM FELLOWSHIP OF PHILADELPHIA INC.'
 
   @Output() onToggleSideNav: EventEmitter<SideNavToggle> = new EventEmitter();
   collapsed = false;
