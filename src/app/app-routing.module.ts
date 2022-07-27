@@ -11,7 +11,7 @@ import { ResourcesComponent } from './resources/resources.component';
 import { LoginComponent } from './core/login/login.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: 'message', pathMatch: 'full'},
+  {path: '', redirectTo: 'login', pathMatch: 'full'},
   {path: 'message', component: MessageComponent},
   {path:'email', component:EmailComponent},
   {path:'forms', component:FormsComponent},
